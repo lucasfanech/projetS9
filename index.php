@@ -40,7 +40,7 @@ $products = $products->fetchAll();
             </form>
         </div>
     </header>
-    <main>
+    <div class="py-3 mb-4 container">
         <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-body-tertiary">
             <div class="col-md-6 p-lg-5 mx-auto my-5">
                 <h1 class="display-3 fw-bold">Conçu pour les humains par des chevaux</h1>
@@ -90,8 +90,64 @@ $products = $products->fetchAll();
                 <div class="bg-body-tertiary shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
             </div>
         </div>
+        <hr>
+        <div class="container">
+            <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+                <div class="col">
+                    <div class="card mb-4 rounded-3 shadow-sm">
+                        <div class="card-header py-3">
+                            <h4 class="my-0 fw-normal">Free</h4>
+                        </div>
+                        <div class="card-body">
+                            <h1 class="card-title pricing-card-title">$0<small class="text-body-secondary fw-light">/mo</small></h1>
+                            <ul class="list-unstyled mt-3 mb-4">
+                                <li>10 users included</li>
+                                <li>2 GB of storage</li>
+                                <li>Email support</li>
+                                <li>Help center access</li>
+                            </ul>
+                            <button type="button" class="w-100 btn btn-lg btn-outline-primary">Sign up for free</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card mb-4 rounded-3 shadow-sm">
+                        <div class="card-header py-3">
+                            <h4 class="my-0 fw-normal">Pro</h4>
+                        </div>
+                        <div class="card-body">
+                            <h1 class="card-title pricing-card-title">$15<small class="text-body-secondary fw-light">/mo</small></h1>
+                            <ul class="list-unstyled mt-3 mb-4">
+                                <li>20 users included</li>
+                                <li>10 GB of storage</li>
+                                <li>Priority email support</li>
+                                <li>Help center access</li>
+                            </ul>
+                            <button type="button" class="w-100 btn btn-lg btn-primary">Get started</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card mb-4 rounded-3 shadow-sm border-primary">
+                        <div class="card-header py-3 text-bg-primary border-primary">
+                            <h4 class="my-0 fw-normal">Enterprise</h4>
+                        </div>
+                        <div class="card-body">
+                            <h1 class="card-title pricing-card-title">$29<small class="text-body-secondary fw-light">/mo</small></h1>
+                            <ul class="list-unstyled mt-3 mb-4">
+                                <li>30 users included</li>
+                                <li>15 GB of storage</li>
+                                <li>Phone and email support</li>
+                                <li>Help center access</li>
+                            </ul>
+                            <button type="button" class="w-100 btn btn-lg btn-primary">Contact us</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
 
 
-    </main>
+    </div>
 </body>
